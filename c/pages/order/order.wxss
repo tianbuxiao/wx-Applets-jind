@@ -1,0 +1,64 @@
+.content{
+  background-color: #E8E8ED;
+  height: 600px;
+}
+.bg{
+  width:100%;
+  height: 150px;
+  background-color: #F54844;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+}
+.headIcon{
+  margin: 10px;
+}
+.login{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  left: 120px;
+  margin-top:30px;
+}
+.account{
+  color: #f2f2f2;
+  font-size: 13px;
+  margin-top:10px;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.hr{
+  width: 100%;
+  height: 15px;
+}
+.img{
+  margin-left: 10px;
+  line-height: 50px;
+}
+.name{
+  padding-top:15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+.detail{
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888888;
+}
+.line{
+  border:1px solid #cccccc;
+  opacity: 0.2;
+}
+.count{
+  font-size: 13px;
+  color: #ff0000;
+}

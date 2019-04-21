@@ -1,0 +1,89 @@
+<view class="content">
+  <view class="bg">
+    <image src="/images/icon/logo.jpg" style="width:194px;height:180px;" class="logo"></image>
+     <view class="search" bindtap="search">
+     <view>
+       <image src="/images/icon/search.jpg" style="width:20px;height:21px;"></image>
+       搜索京东商品
+     </view>
+  </view>
+  </view>
+  <view>
+    <view class="title">发现京东好券</view>
+    <view class="items">
+       <view class="item">
+          <view class="priceInfo">
+             <view class="price">
+               <text class="rmb">￥</text>
+               <text class="count">5</text>
+             </view>
+             <view class="type">
+                <view>
+                  <image src="/images/icon/dongquan.jpg" style="width:40px;height:16px;"></image>
+                </view>
+                <view>满100可用</view>
+             </view>
+          </view>
+          <view class="desc">
+             全品类(特例商品除外)
+          </view>
+       </view>
+
+       <view class="item">
+          <view class="priceInfo">
+             <view class="price">
+               <text class="rmb">￥</text>
+               <text class="count">500</text>
+             </view>
+             <view class="type">
+                <view>
+                  <image src="/images/icon/dongquan.jpg" style="width:40px;height:16px;"></image>
+                </view>
+                <view>满999可用</view>
+             </view>
+          </view>
+          <view class="desc">
+             仅可购买全球购商品
+          </view>
+       </view>
+    </view>
+
+     <view class="items">
+       <view class="item">
+          <view class="priceInfo">
+             <view class="price">
+               <text class="rmb">￥</text>
+               <text class="count">5</text>
+             </view>
+             <view class="type">
+                <view>
+                  <image src="/images/icon/dongquan.jpg" style="width:40px;height:16px;"></image>
+                </view>
+                <view>满500可用</view>
+             </view>
+          </view>
+          <view class="desc">
+             仅可购买全球购商品
+          </view>
+       </view>
+
+       <view class="item">
+          <view class="priceInfo">
+             <view class="price">
+               <text class="rmb">￥</text>
+               <text class="count">5</text>
+             </view>
+             <view class="type">
+                <view>
+                  <image src="/images/icon/dongquan.jpg" style="width:40px;height:16px;"></image>
+                </view>
+                <view>满199可用</view>
+             </view>
+          </view>
+          <view class="desc">
+             仅可购买指定品牌挂架商品
+          </view>
+       </view>
+    </view>
+  </view>
+</view>

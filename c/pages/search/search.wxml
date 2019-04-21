@@ -1,0 +1,40 @@
+<view class="search">
+  <view class="searchBg">
+    <view>
+      <image src="/images/icon/search-1.jpg" style="width:20px;height:21px;"></image>
+    </view>
+    <view>
+      <input type="text" placeholder="搜索京东商品" placeholder-class="holder" bindblur="searchGoods" id="search" value="{{name}}" />
+    </view>
+  </view>
+  <view class="btn" bindtap="resetSearch">取消</view>
+</view>
+<view class="hr"></view>
+<block wx:if="{{result.length > 0}}">
+  <block wx:for="{{result}}">
+    <view class="item">
+      <view class="name">{{item}}</view>
+      <view class="hr"></view>
+    </view>
+  </block>
+</block>
+<block  wx:else>
+  <view class="hotSearch">
+    <view class="title">
+      <view class="left">热门搜索</view>
+      <view class="right">换一批</view>
+    </view>
+    <view class="tips">
+      <view class="tip">女装</view>
+      <view class="tip">手机</view>
+      <view class="tip">女鞋</view>
+      <view class="tip">男装</view>
+      <view class="tip">男鞋</view>
+      <view class="tip">连衣裙</view>
+      <view class="tip">手表</view>
+      <view class="tip">女裤</view>
+      <view class="tip">高清大电视</view>
+      <view class="tip">T恤女</view>
+    </view>
+  </view>
+</block>

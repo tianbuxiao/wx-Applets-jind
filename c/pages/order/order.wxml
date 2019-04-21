@@ -1,0 +1,67 @@
+<view class="content">
+  <view class="bg">
+    <view class="head">
+      <view class="headIcon">
+        <image src="/images/icon/head.jpg" style="width:99px;height:99px;"></image>
+      </view>
+      <view class="login">
+        <view>kevin</view>
+        <view class="account">账号：6862826266_m</view>
+      </view>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="item">
+    <view class="img">
+      <image src="/images/icon/qbdd.jpg" style="width:20px;height:24px;"></image>
+    </view>
+    <view class="name">全部订单</view>
+    <view class="detail">
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="item">
+    <view class="img">
+      <image src="/images/icon/dfk.jpg" style="width:20px;height:24px;"></image>
+    </view>
+    <view class="name">头条商城</view>
+    <view class="detail">
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="item">
+    <view class="img">
+      <image src="/images/icon/dsh.jpg" style="width:20px;height:24px;"></image>
+    </view>
+    <view class="name">待收货</view>
+    <view class="detail">
+      <text class="count">2单</text>
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="item">
+    <view class="img">
+      <image src="/images/icon/shdd.jpg" style="width:20px;height:24px;"></image>
+    </view>
+    <view class="name">售后订单</view>
+    <view class="detail">
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="hr"></view>
+  <view class="item" bindtap="loadCoupon">
+    <view class="img">
+      <image src="/images/icon/yhq.jpg" style="width:20px;height:24px;"></image>
+    </view>
+    <view class="name">优惠券</view>
+    <view class="detail">
+      <text class="count">3张</text>
+      <text>></text>
+    </view>
+  </view>
+  <view class="line"></view>
+</view>

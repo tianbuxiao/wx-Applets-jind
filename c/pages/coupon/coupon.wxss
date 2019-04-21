@@ -1,0 +1,92 @@
+.content{
+  font-family: "Microsoft YaHei";
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+.menu view{
+  margin: 0 auto;
+}
+.select{
+  font-size: 15px;
+  color:red;
+  width:33%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid red;
+}
+.default{
+  width:33%;
+  font-size: 15px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+.item{
+  border: 1px solid #47C1C4;
+  width:96%;
+  height: 100px;
+  margin:0 auto;
+  border-radius: 5px;
+  margin-top:10px; 
+}
+.priceInfo{
+  display: flex;
+  flex-direction: row;
+  padding:5px;
+  height: 60px;
+}
+.price{
+  width:20%;
+  line-height: 60px;
+  color: #47C1C4;
+}
+.type{
+  width:80%;
+  font-size: 15px;
+  color: #47C1C4;
+  display: flex;
+  flex-direction: column;
+}
+.type view{
+  width:100%;
+  margin-top:5px;
+}
+.rmb{
+  font-size: 13px;
+}
+.count{
+  font-size: 20px;
+}
+.desc{
+  font-size: 12px;
+  background-color: #47C1C4;
+  height: 30px;
+  color: #ffffff;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  width:60%;
+  text-align: left;
+  margin-left: 10px;
+}
+.right{
+  width:40%;
+  text-align: right;
+  margin-right: 10px;
+}
+.borderColor{
+   border: 1px solid #CCCCCC;
+}
+.bgColor{
+  background-color: #CCCCCC;
+}
+.textColor{
+   color: #CCCCCC;
+}
